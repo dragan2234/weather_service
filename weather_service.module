@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function weather_service_theme() {
+  return array(
+    'weather_field_formatter' => array(
+      'variables' => array('weather' => NULL),
+      'template' => 'weather-field-formatter',
+    )
+  );
+}

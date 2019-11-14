@@ -1,0 +1,7 @@
+name: Custom weather service module
+type: module
+description: Custom weather service module
+package: Custom
+core: 8.x
+dependencies:
+  - field

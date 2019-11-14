@@ -1,0 +1,3 @@
+services:
+  weather_service.get:
+    class: Drupal\weather_service\WeatherService
