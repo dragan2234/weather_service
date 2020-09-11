@@ -10,3 +10,14 @@ function weather_service_theme() {
     )
   );
 }
+
+/**
+ * Implements hook_bar().
+ */
+/**
+ * Implements hook_user_login().
+ */
+function weather_service_user_login(UserInterface $account)
+{
+
+}
